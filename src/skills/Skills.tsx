@@ -6,8 +6,11 @@ const Skills = () => {
     return (
         // можно промапить свои скиллы (метод map)
         <div className={style.skillsBlock}>
-            <div className={styleContainer.container}>
-                <h2>Skills</h2>
+            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                <h2 className={style.title}>Skills</h2>
+                <div className={style.skills}>
+
+                </div>
             </div>
         </div>
     );
