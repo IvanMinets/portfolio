@@ -1,11 +1,17 @@
 import React from 'react';
 import style from './Skill.module.css'
 
-const Skill = () => {
+type SkillPropsType = {
+    title: string
+    description: string
+}
+const Skill = (props: SkillPropsType) => {
     return (
         // можно промапить свои скиллы (метод map)
-        <div className={style.skillsBlock}>
-
+        <div className={style.skill}>
+            <div className={style.icon}></div>
+            <h3>{props.title}</h3>
+            <span className={style.description}>{props.description}</span>
         </div>
     );
 };
