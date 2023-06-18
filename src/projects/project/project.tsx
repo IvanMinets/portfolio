@@ -13,8 +13,8 @@ const Project = (props: ProjectPropsType) => {
             <div className={styles.imgContainer}>
                 <a href="#" className={styles.button}>Watch</a>
             </div>
-            <div>{props.title}</div>
-            <span className={''}>{props.description}</span>
+            <div className={styles.title}>{props.title}</div>
+            <span className={styles.description}>{props.description}</span>
         </div>
     );
 };

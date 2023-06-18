@@ -1,20 +1,34 @@
 .project {
     width: 300px;
-    height: 300px;
     background-color: grey;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 
 .imgContainer {
     width: 100%;
     height: 200px;
-    background-color: #ff34d0;
+    background-color: #ff4490;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    /*background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsaOpOGyiS-byWXEOsEwiKha8aA0lmeG1Aua-f_NZ-&s");*/
+    /*background-position: center;*/
 }
 
 .button {
     text-decoration: none;
     background-color: grey;
+    padding: 10px 25px;
+}
+
+.title {
+    background-color: antiquewhite;
+    margin: 5px;
+}
+
+.description {
+    background-color: antiquewhite;
+    margin: 5px;
 }

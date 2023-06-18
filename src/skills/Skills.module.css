@@ -9,8 +9,9 @@
     justify-content: flex-start;
 }
 .title {
+    display: flex;
+    justify-content: center;
     background-color: grey;
-    width: 100%;
 }
 .skills {
     border: 1px solid;
