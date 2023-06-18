@@ -8,9 +8,8 @@ type ProjectPropsType = {
 
 const Project = (props: ProjectPropsType) => {
     return (
-        <div className={''}>
+        <div className={styles.project}>
             <div>
-                <div className={''}></div>
                 <button>Watch</button>
             </div>
             <div>
