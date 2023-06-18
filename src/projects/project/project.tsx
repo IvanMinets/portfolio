@@ -4,18 +4,17 @@ import styles from './project.module.css'
 type ProjectPropsType = {
     title: string
     description: string
+    style: string
 }
 
 const Project = (props: ProjectPropsType) => {
     return (
         <div className={styles.project}>
-            <div>
-                <button>Watch</button>
+            <div className={styles.imgContainer}>
+                <a href="#" className={styles.button}>Watch</a>
             </div>
-            <div>
-                <h3>{props.title}</h3>
-                <span className={''}>{props.description}</span>
-            </div>
+            <div>{props.title}</div>
+            <span className={''}>{props.description}</span>
         </div>
     );
 };
