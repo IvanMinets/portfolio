@@ -1,5 +1,5 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: mediumpurple;
 }
 .projectsContainer {
@@ -7,16 +7,14 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-
 .title {
     display: flex;
     justify-content: center;
     background-color: grey;
 }
-
 .projects {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }

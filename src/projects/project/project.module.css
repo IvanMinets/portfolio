@@ -1,5 +1,5 @@
 .project {
-    width: 300px;
+    width: 250px;
     background-color: grey;
     display: flex;
     flex-direction: column;
@@ -13,8 +13,6 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    /*background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsaOpOGyiS-byWXEOsEwiKha8aA0lmeG1Aua-f_NZ-&s");*/
-    /*background-position: center;*/
 }
 
 .button {
